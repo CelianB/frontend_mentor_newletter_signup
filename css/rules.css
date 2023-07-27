@@ -1,0 +1,23 @@
+:root {
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+
+  --color-primary: hsl(4, 100%, 67%);
+  --color-dark-grey: hsl(234, 29%, 20%);
+  --color-charcoal-grey: hsl(235, 18%, 26%);
+  --color-grey: hsl(231, 7%, 60%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --color-error-text: hsl(7, 65%, 65%);
+  --color-error: hsla(7, 81%, 79%, 0.438);
+
+  --font-size: 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

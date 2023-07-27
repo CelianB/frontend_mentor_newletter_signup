@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/rules.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/style-mobile.css" rel="stylesheet" />
+    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <br>
+        <ul>
+          <li></span>Product discovery and building what matters</li>
+          <li></span>Measuring to ensure updates are a success</li>
+          <li></span>And much more!</li>
+        </ul>
+        <br />
+        <br />
+        <form id="emailForm">
+          <div>
+            <label for="email">Email address</label>
+            <label id="error" for="email">Valid email required</label>
+          </div>
+
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="email@company.com"
+          />
+          <br />
+          <input value="Subscribe to monthly newsletter" class="submit" type="submit"></input>
+          
+        </form>
+      </div>
+
+      <div>
+        <img class="desktop-bg"
+          src="assets/images/illustration-sign-up-desktop.svg"
+          alt="illustration"
+        />
+        <img class="mobile-bg"
+          src="assets/images/illustration-sign-up-mobile.svg"
+          alt="illustration"
+        />
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Célian BASTIEN</a>.
+    </div>
+  </body>
+  <script src="./js/app.js"></script>
+</html>
