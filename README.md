@@ -3,22 +3,13 @@
 This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-## Overview
-
-### The challenge
+## The challenge
 
 Users should be able to:
 
@@ -30,17 +21,15 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+## Screenshot
 
 ![](./screenshot.png)
 
-### Links
+## Links
 
-- Live Site URL: [[Add live site URL here](https://celianb.github.io/frontend_mentor_newletter_signup)]([https://your-live-site-url.com](https://celianb.github.io/frontend_mentor_newletter_signup))
+- Live Site URL: https://celianb.github.io/frontend_mentor_newletter_signup
 
-## My process
-
-### Built with
+## Built with
 
 - HTML5 markup
 - CSS
