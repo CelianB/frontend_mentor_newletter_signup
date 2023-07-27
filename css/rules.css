@@ -15,9 +15,15 @@
 }
 
 .attribution {
+  position: fixed;
   font-size: 11px;
   text-align: center;
+  bottom: 0;
+  width: 100%;
+  color: var(--color-dark-grey);
+  background-color: var(--color-white);
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--color-dark-grey);
 }

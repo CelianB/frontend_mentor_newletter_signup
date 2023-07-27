@@ -21,12 +21,9 @@ input {
   outline: none;
   border-radius: 10px;
 }
+
 input[type="text"]:focus {
   border: 1px solid #747272;
-}
-
-.error {
-  border: 1px solid #bd5a5a;
 }
 
 input[type="submit"] {
@@ -37,31 +34,52 @@ input[type="submit"] {
   font-size: inherit;
 }
 
-.submit:hover,
-.submit:active {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff527b+0,ff6a3a+100 */
-  background: #ff527b; /* Old browsers */
-  background: -moz-linear-gradient(
-    -45deg,
-    #ff527b 0%,
-    #ff6a3a 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    -45deg,
-    #ff527b 0%,
-    #ff6a3a 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    135deg,
-    #ff527b 0%,
-    #ff6a3a 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff527b', endColorstr='#ff6a3a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-
 label {
   font-family: robotoBold;
   font-size: small;
+}
+
+ul {
+  line-height: 1.5;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  background: url(../assets/images/icon-list.svg) no-repeat left center;
+  padding-left: 31px;
+  margin: 3px 0;
+}
+
+@font-face {
+  font-family: robotoBold;
+  src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: robotoRegular;
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+.submit:hover,
+.submit:active {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff527b+0,ff6a3a+100 */
+  background: #ff527b;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg,
+      #ff527b 0%,
+      #ff6a3a 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,
+      #ff527b 0%,
+      #ff6a3a 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,
+      #ff527b 0%,
+      #ff6a3a 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff527b', endColorstr='#ff6a3a', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
 }
 
 #error {
@@ -69,30 +87,10 @@ label {
   color: var(--color-error-text);
   display: none;
 }
+
 .error {
   background-color: var(--color-error);
-}
-ul {
-  line-height: 1.5;
-  list-style: none;
-  padding-left: 0;
-}
-li {
-  background: url(../assets/images/icon-list.svg) no-repeat left center;
-  padding-left: 31px;
-  margin: 3px 0;
-}
-@font-face {
-  font-family: robotoBold;
-  src: url("../assets/fonts/Roboto-Bold.ttf");
-}
-@font-face {
-  font-family: robotoRegular;
-  src: url("../assets/fonts/Roboto-Regular.ttf");
-}
-
-.mobile-bg {
-  display: none;
+  border: 1px solid #bd5a5a;
 }
 
 .container {
@@ -113,14 +111,8 @@ li {
 
 .success {
   width: 500px;
-  /* color: var(--color-primary);
-  font-family: robotoBold;
-  font-size: 20px;
-  text-align: center;
-  margin: 0 auto;
-  width: 100%;
-  padding: 20px;
-  background-color: var(--color-white);
-  border-radius: 10px;
-  margin-top: 20px; */
+}
+
+.mobile-bg {
+  display: none;
 }
